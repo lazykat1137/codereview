@@ -1,0 +1,920 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E03974EB2154DF1F00CA3944 /* TLFloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03974E92154DF1F00CA3944 /* TLFloatLabelTextView.swift */; };
+		E03974F02154E90E00CA3944 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03974ED2154E90600CA3944 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		E03974F12154E90E00CA3944 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03974EE2154E90B00CA3944 /* UITextField+fixCaretPosition.swift */; };
+		E03974F22154E90E00CA3944 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03974EF2154E90C00CA3944 /* SkyFloatingLabelTextField.swift */; };
+		E03974FB2154ED5400CA3944 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03974F52154ED5400CA3944 /* CGRectExtension.swift */; };
+		E03974FC2154ED5400CA3944 /* CustomTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03974F62154ED5400CA3944 /* CustomTransitionViewController.swift */; };
+		E03974FD2154ED5400CA3944 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03974F72154ED5400CA3944 /* FadeTransition.swift */; };
+		E03974FF2154ED5400CA3944 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03974F92154ED5400CA3944 /* SpinerLayer.swift */; };
+		E03975002154ED5400CA3944 /* TransitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03974FA2154ED5400CA3944 /* TransitionButton.swift */; };
+		E039751C2154F6A800CA3944 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975062154F6A800CA3944 /* IQNSArray+Sort.swift */; };
+		E039751D2154F6A800CA3944 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975072154F6A800CA3944 /* IQUIScrollView+Additions.swift */; };
+		E039751E2154F6A800CA3944 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975082154F6A800CA3944 /* IQUITextFieldView+Additions.swift */; };
+		E039751F2154F6A800CA3944 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975092154F6A800CA3944 /* IQUIView+Hierarchy.swift */; };
+		E03975202154F6A800CA3944 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039750A2154F6A800CA3944 /* IQUIViewController+Additions.swift */; };
+		E03975212154F6A800CA3944 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039750C2154F6A800CA3944 /* IQKeyboardManagerConstants.swift */; };
+		E03975222154F6A800CA3944 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039750D2154F6A800CA3944 /* IQKeyboardManagerConstantsInternal.swift */; };
+		E03975232154F6A800CA3944 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039750E2154F6A800CA3944 /* IQKeyboardManager.swift */; };
+		E03975242154F6A800CA3944 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975102154F6A800CA3944 /* IQKeyboardReturnKeyHandler.swift */; };
+		E03975252154F6A800CA3944 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975122154F6A800CA3944 /* IQTextView.swift */; };
+		E03975262154F6A800CA3944 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975142154F6A800CA3944 /* IQBarButtonItem.swift */; };
+		E03975272154F6A800CA3944 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975152154F6A800CA3944 /* IQInvocation.swift */; };
+		E03975282154F6A800CA3944 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975162154F6A800CA3944 /* IQPreviousNextView.swift */; };
+		E03975292154F6A800CA3944 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975172154F6A800CA3944 /* IQTitleBarButtonItem.swift */; };
+		E039752A2154F6A800CA3944 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975182154F6A800CA3944 /* IQToolbar.swift */; };
+		E039752B2154F6A800CA3944 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975192154F6A800CA3944 /* IQUIView+IQKeyboardToolbar.swift */; };
+		E039752C2154F6A800CA3944 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E039751B2154F6A800CA3944 /* IQKeyboardManager.bundle */; };
+		E0397547215500D500CA3944 /* GSMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0397546215500D500CA3944 /* GSMessage.swift */; };
+		E039754A2155029700CA3944 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975492155029700CA3944 /* Utils.swift */; };
+		E039757521550F3200CA3944 /* ConstantStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039757421550F3200CA3944 /* ConstantStrings.swift */; };
+		E03975772155127D00CA3944 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975762155127D00CA3944 /* Reachability.swift */; };
+		E0397581215516F000CA3944 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0397580215516F000CA3944 /* SwiftyJSON.swift */; };
+		E03975832155177C00CA3944 /* WebServiceGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03975822155177C00CA3944 /* WebServiceGeneral.swift */; };
+		E086AB672155F65800F3968F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E086AB652155F64A00F3968F /* Alamofire.framework */; };
+		E086AB682155F65800F3968F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E086AB652155F64A00F3968F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E08BE64E2153C241003DA67C /* pettamera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E08BE64B2153C240003DA67C /* pettamera.jpg */; };
+		E08BE64F2153C241003DA67C /* homebackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E08BE64C2153C241003DA67C /* homebackground.jpg */; };
+		E08BE6502153C241003DA67C /* splash_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E08BE64D2153C241003DA67C /* splash_logo.png */; };
+		E08BE6542153C4C1003DA67C /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08BE6532153C4C1003DA67C /* Configs.swift */; };
+		E08BE65A2153C5F9003DA67C /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E08BE6552153C5F9003DA67C /* Poppins-Light.ttf */; };
+		E08BE65B2153C5F9003DA67C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E08BE6562153C5F9003DA67C /* Poppins-Regular.ttf */; };
+		E08BE65C2153C5F9003DA67C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E08BE6572153C5F9003DA67C /* Poppins-Bold.ttf */; };
+		E08BE65D2153C5F9003DA67C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E08BE6582153C5F9003DA67C /* Poppins-Medium.ttf */; };
+		E08BE65E2153C5F9003DA67C /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E08BE6592153C5F9003DA67C /* Poppins-SemiBold.ttf */; };
+		E0C7B0E221422D0B00EE95E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7B0E121422D0B00EE95E7 /* AppDelegate.swift */; };
+		E0C7B0E421422D0B00EE95E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7B0E321422D0B00EE95E7 /* ViewController.swift */; };
+		E0C7B0E721422D0B00EE95E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C7B0E521422D0B00EE95E7 /* Main.storyboard */; };
+		E0C7B0E921422D0C00EE95E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C7B0E821422D0C00EE95E7 /* Assets.xcassets */; };
+		E0C7B0EC21422D0C00EE95E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C7B0EA21422D0C00EE95E7 /* LaunchScreen.storyboard */; };
+		E0C7B0F721422D0C00EE95E7 /* Lazy_KatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7B0F621422D0C00EE95E7 /* Lazy_KatTests.swift */; };
+		E0C7B10221422D0C00EE95E7 /* Lazy_KatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7B10121422D0C00EE95E7 /* Lazy_KatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0C7B0F321422D0C00EE95E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0C7B0D621422D0B00EE95E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0C7B0DD21422D0B00EE95E7;
+			remoteInfo = "Lazy Kat";
+		};
+		E0C7B0FE21422D0C00EE95E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0C7B0D621422D0B00EE95E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0C7B0DD21422D0B00EE95E7;
+			remoteInfo = "Lazy Kat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E086AB692155F65800F3968F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E086AB682155F65800F3968F /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E03974E92154DF1F00CA3944 /* TLFloatLabelTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLFloatLabelTextView.swift; sourceTree = "<group>"; };
+		E03974ED2154E90600CA3944 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		E03974EE2154E90B00CA3944 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		E03974EF2154E90C00CA3944 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		E03974F52154ED5400CA3944 /* CGRectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
+		E03974F62154ED5400CA3944 /* CustomTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransitionViewController.swift; sourceTree = "<group>"; };
+		E03974F72154ED5400CA3944 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		E03974F92154ED5400CA3944 /* SpinerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinerLayer.swift; sourceTree = "<group>"; };
+		E03974FA2154ED5400CA3944 /* TransitionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionButton.swift; sourceTree = "<group>"; };
+		E03975062154F6A800CA3944 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		E03975072154F6A800CA3944 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		E03975082154F6A800CA3944 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		E03975092154F6A800CA3944 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		E039750A2154F6A800CA3944 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		E039750C2154F6A800CA3944 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		E039750D2154F6A800CA3944 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		E039750E2154F6A800CA3944 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		E039750F2154F6A800CA3944 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		E03975102154F6A800CA3944 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		E03975122154F6A800CA3944 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		E03975142154F6A800CA3944 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		E03975152154F6A800CA3944 /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		E03975162154F6A800CA3944 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		E03975172154F6A800CA3944 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		E03975182154F6A800CA3944 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		E03975192154F6A800CA3944 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		E039751B2154F6A800CA3944 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		E0397546215500D500CA3944 /* GSMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSMessage.swift; sourceTree = "<group>"; };
+		E03975492155029700CA3944 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		E039757421550F3200CA3944 /* ConstantStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantStrings.swift; sourceTree = "<group>"; };
+		E03975762155127D00CA3944 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = "Lazy Kat/Vendor/Reachability.swift"; sourceTree = SOURCE_ROOT; };
+		E0397580215516F000CA3944 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		E03975822155177C00CA3944 /* WebServiceGeneral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceGeneral.swift; sourceTree = "<group>"; };
+		E086AB652155F64A00F3968F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		E08BE64B2153C240003DA67C /* pettamera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pettamera.jpg; sourceTree = "<group>"; };
+		E08BE64C2153C241003DA67C /* homebackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homebackground.jpg; sourceTree = "<group>"; };
+		E08BE64D2153C241003DA67C /* splash_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_logo.png; sourceTree = "<group>"; };
+		E08BE6532153C4C1003DA67C /* Configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		E08BE6552153C5F9003DA67C /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		E08BE6562153C5F9003DA67C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		E08BE6572153C5F9003DA67C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		E08BE6582153C5F9003DA67C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		E08BE6592153C5F9003DA67C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		E0AA4E20215533DD00042D6C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "/Users/viral/lazykat_ios/Code/Lazy Kat/Framework/Alamofire.framework"; sourceTree = "<absolute>"; };
+		E0C7B0DE21422D0B00EE95E7 /* Lazy Kat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lazy Kat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C7B0E121422D0B00EE95E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0C7B0E321422D0B00EE95E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0C7B0E621422D0B00EE95E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0C7B0E821422D0C00EE95E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0C7B0EB21422D0C00EE95E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0C7B0ED21422D0C00EE95E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C7B0F221422D0C00EE95E7 /* Lazy KatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lazy KatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C7B0F621422D0C00EE95E7 /* Lazy_KatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy_KatTests.swift; sourceTree = "<group>"; };
+		E0C7B0F821422D0C00EE95E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C7B0FD21422D0C00EE95E7 /* Lazy KatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lazy KatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C7B10121422D0C00EE95E7 /* Lazy_KatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy_KatUITests.swift; sourceTree = "<group>"; };
+		E0C7B10321422D0C00EE95E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0C7B0DB21422D0B00EE95E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E086AB672155F65800F3968F /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C7B0EF21422D0C00EE95E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C7B0FA21422D0C00EE95E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0047EC42155355B00B73AAD /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				E0AA4E20215533DD00042D6C /* Alamofire.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		E03974E82154DF0800CA3944 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				E0397578215515A900CA3944 /* SwiftyJSON */,
+				E039752E2154F9EA00CA3944 /* Whisper */,
+				E03975042154F6A800CA3944 /* IQKeyboardManagerSwift */,
+				E03975022154F68000CA3944 /* FloatTextView */,
+				E03975012154F64800CA3944 /* SkyfloatingTextField */,
+				E03974F42154ED5400CA3944 /* Animation Button */,
+				E03975762155127D00CA3944 /* Reachability.swift */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		E03974F42154ED5400CA3944 /* Animation Button */ = {
+			isa = PBXGroup;
+			children = (
+				E03974F52154ED5400CA3944 /* CGRectExtension.swift */,
+				E03974F62154ED5400CA3944 /* CustomTransitionViewController.swift */,
+				E03974F72154ED5400CA3944 /* FadeTransition.swift */,
+				E03974F92154ED5400CA3944 /* SpinerLayer.swift */,
+				E03974FA2154ED5400CA3944 /* TransitionButton.swift */,
+			);
+			path = "Animation Button";
+			sourceTree = "<group>";
+		};
+		E03975012154F64800CA3944 /* SkyfloatingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				E03974EF2154E90C00CA3944 /* SkyFloatingLabelTextField.swift */,
+				E03974ED2154E90600CA3944 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				E03974EE2154E90B00CA3944 /* UITextField+fixCaretPosition.swift */,
+			);
+			path = SkyfloatingTextField;
+			sourceTree = "<group>";
+		};
+		E03975022154F68000CA3944 /* FloatTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E03974E92154DF1F00CA3944 /* TLFloatLabelTextView.swift */,
+			);
+			path = FloatTextView;
+			sourceTree = "<group>";
+		};
+		E03975042154F6A800CA3944 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E03975052154F6A800CA3944 /* Categories */,
+				E039750B2154F6A800CA3944 /* Constants */,
+				E039750E2154F6A800CA3944 /* IQKeyboardManager.swift */,
+				E039750F2154F6A800CA3944 /* IQKeyboardManagerSwift.h */,
+				E03975102154F6A800CA3944 /* IQKeyboardReturnKeyHandler.swift */,
+				E03975112154F6A800CA3944 /* IQTextView */,
+				E03975132154F6A800CA3944 /* IQToolbar */,
+				E039751A2154F6A800CA3944 /* Resources */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		E03975052154F6A800CA3944 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E03975062154F6A800CA3944 /* IQNSArray+Sort.swift */,
+				E03975072154F6A800CA3944 /* IQUIScrollView+Additions.swift */,
+				E03975082154F6A800CA3944 /* IQUITextFieldView+Additions.swift */,
+				E03975092154F6A800CA3944 /* IQUIView+Hierarchy.swift */,
+				E039750A2154F6A800CA3944 /* IQUIViewController+Additions.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E039750B2154F6A800CA3944 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E039750C2154F6A800CA3944 /* IQKeyboardManagerConstants.swift */,
+				E039750D2154F6A800CA3944 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E03975112154F6A800CA3944 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E03975122154F6A800CA3944 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		E03975132154F6A800CA3944 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				E03975142154F6A800CA3944 /* IQBarButtonItem.swift */,
+				E03975152154F6A800CA3944 /* IQInvocation.swift */,
+				E03975162154F6A800CA3944 /* IQPreviousNextView.swift */,
+				E03975172154F6A800CA3944 /* IQTitleBarButtonItem.swift */,
+				E03975182154F6A800CA3944 /* IQToolbar.swift */,
+				E03975192154F6A800CA3944 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		E039751A2154F6A800CA3944 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E039751B2154F6A800CA3944 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E039752E2154F9EA00CA3944 /* Whisper */ = {
+			isa = PBXGroup;
+			children = (
+				E0397546215500D500CA3944 /* GSMessage.swift */,
+			);
+			path = Whisper;
+			sourceTree = "<group>";
+		};
+		E0397578215515A900CA3944 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				E0397580215516F000CA3944 /* SwiftyJSON.swift */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		E086A9C72155F51000F3968F /* Almofire */ = {
+			isa = PBXGroup;
+			children = (
+				E086AB642155F63700F3968F /* Framework */,
+			);
+			path = Almofire;
+			sourceTree = "<group>";
+		};
+		E086AB642155F63700F3968F /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				E086AB652155F64A00F3968F /* Alamofire.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		E08BE64A2153C205003DA67C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E08BE6512153C335003DA67C /* Fonts */,
+				E08BE64C2153C241003DA67C /* homebackground.jpg */,
+				E08BE64B2153C240003DA67C /* pettamera.jpg */,
+				E08BE64D2153C241003DA67C /* splash_logo.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E08BE6512153C335003DA67C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E08BE6572153C5F9003DA67C /* Poppins-Bold.ttf */,
+				E08BE6552153C5F9003DA67C /* Poppins-Light.ttf */,
+				E08BE6582153C5F9003DA67C /* Poppins-Medium.ttf */,
+				E08BE6562153C5F9003DA67C /* Poppins-Regular.ttf */,
+				E08BE6592153C5F9003DA67C /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E08BE6522153C4B0003DA67C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E039757421550F3200CA3944 /* ConstantStrings.swift */,
+				E03975822155177C00CA3944 /* WebServiceGeneral.swift */,
+				E03975492155029700CA3944 /* Utils.swift */,
+				E08BE6532153C4C1003DA67C /* Configs.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E0C7B0D521422D0B00EE95E7 = {
+			isa = PBXGroup;
+			children = (
+				E0C7B0E021422D0B00EE95E7 /* Lazy Kat */,
+				E0C7B0F521422D0C00EE95E7 /* Lazy KatTests */,
+				E0C7B10021422D0C00EE95E7 /* Lazy KatUITests */,
+				E0C7B0DF21422D0B00EE95E7 /* Products */,
+				E0047EC42155355B00B73AAD /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		E0C7B0DF21422D0B00EE95E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0C7B0DE21422D0B00EE95E7 /* Lazy Kat.app */,
+				E0C7B0F221422D0C00EE95E7 /* Lazy KatTests.xctest */,
+				E0C7B0FD21422D0C00EE95E7 /* Lazy KatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0C7B0E021422D0B00EE95E7 /* Lazy Kat */ = {
+			isa = PBXGroup;
+			children = (
+				E086A9C72155F51000F3968F /* Almofire */,
+				E03974E82154DF0800CA3944 /* Vendor */,
+				E08BE6522153C4B0003DA67C /* Common */,
+				E08BE64A2153C205003DA67C /* Resource */,
+				E0C7B0E121422D0B00EE95E7 /* AppDelegate.swift */,
+				E0C7B0E321422D0B00EE95E7 /* ViewController.swift */,
+				E0C7B0E521422D0B00EE95E7 /* Main.storyboard */,
+				E0C7B0E821422D0C00EE95E7 /* Assets.xcassets */,
+				E0C7B0EA21422D0C00EE95E7 /* LaunchScreen.storyboard */,
+				E0C7B0ED21422D0C00EE95E7 /* Info.plist */,
+			);
+			path = "Lazy Kat";
+			sourceTree = "<group>";
+		};
+		E0C7B0F521422D0C00EE95E7 /* Lazy KatTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0C7B0F621422D0C00EE95E7 /* Lazy_KatTests.swift */,
+				E0C7B0F821422D0C00EE95E7 /* Info.plist */,
+			);
+			path = "Lazy KatTests";
+			sourceTree = "<group>";
+		};
+		E0C7B10021422D0C00EE95E7 /* Lazy KatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0C7B10121422D0C00EE95E7 /* Lazy_KatUITests.swift */,
+				E0C7B10321422D0C00EE95E7 /* Info.plist */,
+			);
+			path = "Lazy KatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0C7B0DD21422D0B00EE95E7 /* Lazy Kat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0C7B10621422D0C00EE95E7 /* Build configuration list for PBXNativeTarget "Lazy Kat" */;
+			buildPhases = (
+				E0C7B0DA21422D0B00EE95E7 /* Sources */,
+				E0C7B0DB21422D0B00EE95E7 /* Frameworks */,
+				E0C7B0DC21422D0B00EE95E7 /* Resources */,
+				E086AB692155F65800F3968F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lazy Kat";
+			productName = "Lazy Kat";
+			productReference = E0C7B0DE21422D0B00EE95E7 /* Lazy Kat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0C7B0F121422D0C00EE95E7 /* Lazy KatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0C7B10921422D0C00EE95E7 /* Build configuration list for PBXNativeTarget "Lazy KatTests" */;
+			buildPhases = (
+				E0C7B0EE21422D0C00EE95E7 /* Sources */,
+				E0C7B0EF21422D0C00EE95E7 /* Frameworks */,
+				E0C7B0F021422D0C00EE95E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0C7B0F421422D0C00EE95E7 /* PBXTargetDependency */,
+			);
+			name = "Lazy KatTests";
+			productName = "Lazy KatTests";
+			productReference = E0C7B0F221422D0C00EE95E7 /* Lazy KatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0C7B0FC21422D0C00EE95E7 /* Lazy KatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0C7B10C21422D0C00EE95E7 /* Build configuration list for PBXNativeTarget "Lazy KatUITests" */;
+			buildPhases = (
+				E0C7B0F921422D0C00EE95E7 /* Sources */,
+				E0C7B0FA21422D0C00EE95E7 /* Frameworks */,
+				E0C7B0FB21422D0C00EE95E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0C7B0FF21422D0C00EE95E7 /* PBXTargetDependency */,
+			);
+			name = "Lazy KatUITests";
+			productName = "Lazy KatUITests";
+			productReference = E0C7B0FD21422D0C00EE95E7 /* Lazy KatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0C7B0D621422D0B00EE95E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Lazy Kat";
+				TargetAttributes = {
+					E0C7B0DD21422D0B00EE95E7 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+					E0C7B0F121422D0C00EE95E7 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0C7B0DD21422D0B00EE95E7;
+					};
+					E0C7B0FC21422D0C00EE95E7 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0C7B0DD21422D0B00EE95E7;
+					};
+				};
+			};
+			buildConfigurationList = E0C7B0D921422D0B00EE95E7 /* Build configuration list for PBXProject "Lazy Kat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0C7B0D521422D0B00EE95E7;
+			productRefGroup = E0C7B0DF21422D0B00EE95E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0C7B0DD21422D0B00EE95E7 /* Lazy Kat */,
+				E0C7B0F121422D0C00EE95E7 /* Lazy KatTests */,
+				E0C7B0FC21422D0C00EE95E7 /* Lazy KatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0C7B0DC21422D0B00EE95E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08BE65A2153C5F9003DA67C /* Poppins-Light.ttf in Resources */,
+				E08BE65C2153C5F9003DA67C /* Poppins-Bold.ttf in Resources */,
+				E039752C2154F6A800CA3944 /* IQKeyboardManager.bundle in Resources */,
+				E08BE65E2153C5F9003DA67C /* Poppins-SemiBold.ttf in Resources */,
+				E0C7B0EC21422D0C00EE95E7 /* LaunchScreen.storyboard in Resources */,
+				E08BE6502153C241003DA67C /* splash_logo.png in Resources */,
+				E0C7B0E921422D0C00EE95E7 /* Assets.xcassets in Resources */,
+				E0C7B0E721422D0B00EE95E7 /* Main.storyboard in Resources */,
+				E08BE64E2153C241003DA67C /* pettamera.jpg in Resources */,
+				E08BE64F2153C241003DA67C /* homebackground.jpg in Resources */,
+				E08BE65B2153C5F9003DA67C /* Poppins-Regular.ttf in Resources */,
+				E08BE65D2153C5F9003DA67C /* Poppins-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C7B0F021422D0C00EE95E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C7B0FB21422D0C00EE95E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0C7B0DA21422D0B00EE95E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E039751F2154F6A800CA3944 /* IQUIView+Hierarchy.swift in Sources */,
+				E03975002154ED5400CA3944 /* TransitionButton.swift in Sources */,
+				E03975242154F6A800CA3944 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				E03974F12154E90E00CA3944 /* UITextField+fixCaretPosition.swift in Sources */,
+				E0397547215500D500CA3944 /* GSMessage.swift in Sources */,
+				E039754A2155029700CA3944 /* Utils.swift in Sources */,
+				E03974F02154E90E00CA3944 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				E0C7B0E421422D0B00EE95E7 /* ViewController.swift in Sources */,
+				E03975282154F6A800CA3944 /* IQPreviousNextView.swift in Sources */,
+				E039751C2154F6A800CA3944 /* IQNSArray+Sort.swift in Sources */,
+				E03975262154F6A800CA3944 /* IQBarButtonItem.swift in Sources */,
+				E039751E2154F6A800CA3944 /* IQUITextFieldView+Additions.swift in Sources */,
+				E03975272154F6A800CA3944 /* IQInvocation.swift in Sources */,
+				E039757521550F3200CA3944 /* ConstantStrings.swift in Sources */,
+				E03975202154F6A800CA3944 /* IQUIViewController+Additions.swift in Sources */,
+				E039751D2154F6A800CA3944 /* IQUIScrollView+Additions.swift in Sources */,
+				E03974FC2154ED5400CA3944 /* CustomTransitionViewController.swift in Sources */,
+				E03975832155177C00CA3944 /* WebServiceGeneral.swift in Sources */,
+				E039752B2154F6A800CA3944 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				E03975212154F6A800CA3944 /* IQKeyboardManagerConstants.swift in Sources */,
+				E03975772155127D00CA3944 /* Reachability.swift in Sources */,
+				E03975292154F6A800CA3944 /* IQTitleBarButtonItem.swift in Sources */,
+				E0C7B0E221422D0B00EE95E7 /* AppDelegate.swift in Sources */,
+				E039752A2154F6A800CA3944 /* IQToolbar.swift in Sources */,
+				E08BE6542153C4C1003DA67C /* Configs.swift in Sources */,
+				E03975222154F6A800CA3944 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				E03974FF2154ED5400CA3944 /* SpinerLayer.swift in Sources */,
+				E03974FD2154ED5400CA3944 /* FadeTransition.swift in Sources */,
+				E0397581215516F000CA3944 /* SwiftyJSON.swift in Sources */,
+				E03975232154F6A800CA3944 /* IQKeyboardManager.swift in Sources */,
+				E03974FB2154ED5400CA3944 /* CGRectExtension.swift in Sources */,
+				E03975252154F6A800CA3944 /* IQTextView.swift in Sources */,
+				E03974F22154E90E00CA3944 /* SkyFloatingLabelTextField.swift in Sources */,
+				E03974EB2154DF1F00CA3944 /* TLFloatLabelTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C7B0EE21422D0C00EE95E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C7B0F721422D0C00EE95E7 /* Lazy_KatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C7B0F921422D0C00EE95E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C7B10221422D0C00EE95E7 /* Lazy_KatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0C7B0F421422D0C00EE95E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0C7B0DD21422D0B00EE95E7 /* Lazy Kat */;
+			targetProxy = E0C7B0F321422D0C00EE95E7 /* PBXContainerItemProxy */;
+		};
+		E0C7B0FF21422D0C00EE95E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0C7B0DD21422D0B00EE95E7 /* Lazy Kat */;
+			targetProxy = E0C7B0FE21422D0C00EE95E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0C7B0E521422D0B00EE95E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0C7B0E621422D0B00EE95E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0C7B0EA21422D0C00EE95E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0C7B0EB21422D0C00EE95E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0C7B10421422D0C00EE95E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0C7B10521422D0C00EE95E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0C7B10721422D0C00EE95E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P2NWZMA49;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lazy\\ Kat/Framework",
+					"$(PROJECT_DIR)/Lazy\\ Kat/Framework",
+					"$(PROJECT_DIR)/Lazy\\ Kat/Framework",
+					"$(PROJECT_DIR)/Lazy\\ Kat/Framework",
+					"$(PROJECT_DIR)/Lazy\\ Kat/Almofire/Framework",
+					"$(PROJECT_DIR)/Lazy\\ Kat/Almofire/Framework",
+				);
+				INFOPLIST_FILE = "Lazy Kat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lazy-Kat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0C7B10821422D0C00EE95E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P2NWZMA49;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lazy\\ Kat/Framework",
+					"$(PROJECT_DIR)/Lazy\\ Kat/Framework",
+					"$(PROJECT_DIR)/Lazy\\ Kat/Framework",
+					"$(PROJECT_DIR)/Lazy\\ Kat/Framework",
+					"$(PROJECT_DIR)/Lazy\\ Kat/Almofire/Framework",
+					"$(PROJECT_DIR)/Lazy\\ Kat/Almofire/Framework",
+				);
+				INFOPLIST_FILE = "Lazy Kat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lazy-Kat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0C7B10A21422D0C00EE95E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lazy KatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lazy-KatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazy Kat.app/Lazy Kat";
+			};
+			name = Debug;
+		};
+		E0C7B10B21422D0C00EE95E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lazy KatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lazy-KatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazy Kat.app/Lazy Kat";
+			};
+			name = Release;
+		};
+		E0C7B10D21422D0C00EE95E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lazy KatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lazy-KatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lazy Kat";
+			};
+			name = Debug;
+		};
+		E0C7B10E21422D0C00EE95E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lazy KatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lazy-KatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lazy Kat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0C7B0D921422D0B00EE95E7 /* Build configuration list for PBXProject "Lazy Kat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C7B10421422D0C00EE95E7 /* Debug */,
+				E0C7B10521422D0C00EE95E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0C7B10621422D0C00EE95E7 /* Build configuration list for PBXNativeTarget "Lazy Kat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C7B10721422D0C00EE95E7 /* Debug */,
+				E0C7B10821422D0C00EE95E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0C7B10921422D0C00EE95E7 /* Build configuration list for PBXNativeTarget "Lazy KatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C7B10A21422D0C00EE95E7 /* Debug */,
+				E0C7B10B21422D0C00EE95E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0C7B10C21422D0C00EE95E7 /* Build configuration list for PBXNativeTarget "Lazy KatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C7B10D21422D0C00EE95E7 /* Debug */,
+				E0C7B10E21422D0C00EE95E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0C7B0D621422D0B00EE95E7 /* Project object */;
+}
